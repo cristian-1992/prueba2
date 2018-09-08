@@ -1,0 +1,37 @@
+<!--
+  Generated template for the CamaraPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>camara</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+ 
+    <ion-card>
+        <ion-card-header>
+          camara
+        </ion-card-header>
+        <ion-card-content>
+            <button ion-button color="danger" icon right block (click)= "takePicture();">
+                tomar foto 
+                <ion-icon name="camera">
+        
+                </ion-icon>
+              </button>
+              <img [src]="base64image">
+        
+          
+        </ion-card-content>
+      </ion-card>
+  
+      
+
+</ion-content>
